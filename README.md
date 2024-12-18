@@ -15,6 +15,7 @@
 ###### 搭建X-UI：bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ###### 专线中转：https://g.880805.xyz
 ###### 国家公共DNS：https://public-dns.info/#countries
+###### 查询网站绑定的域名：https://bgp.tools/
 
 ## Xray模板-解决DNS与IP不一致问题
 ```
