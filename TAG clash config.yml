@@ -1,0 +1,180 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇭🇰 香港 01丨1x HK, server: silver-can.steamcommunity.world, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 02丨1x HK, server: silver-can.steamcommunity.world, port: 12023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 03丨1x HK, server: silver-can.steamcommunity.world, port: 12024, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港家宽 01丨1x HK, server: silver-can.steamcommunity.world, port: 12729, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港家宽 02丨1x HK, server: silver-can.steamcommunity.world, port: 13105, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港家宽 03丨1x HK, server: silver-can.steamcommunity.world, port: 13115, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 01丨1x TW, server: silver-can.steamcommunity.world, port: 12304, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 02丨1x TW, server: silver-can.steamcommunity.world, port: 12305, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 03丨1x TW, server: silver-can.steamcommunity.world, port: 12306, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 01丨1x SG, server: silver-can.steamcommunity.world, port: 12000, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 02丨1x SG, server: silver-can.steamcommunity.world, port: 12002, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 03丨1x SG, server: silver-can.steamcommunity.world, port: 12003, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 01丨1x JP, server: silver-pvg.steamcommunity.world, port: 12011, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 02丨1x JP, server: silver-pvg.steamcommunity.world, port: 12010, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 03丨1x JP, server: silver-pvg.steamcommunity.world, port: 12012, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国丨1x GB, server: silver-pek.steamcommunity.world, port: 12710, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-纽约 01丨1x US, server: silver-pvg.steamcommunity.world, port: 13006, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-纽约 02丨1x US, server: silver-pvg.steamcommunity.world, port: 13005, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-丹佛丨1x US, server: silver-pvg.steamcommunity.world, port: 13110, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶 01丨1x US, server: silver-pvg.steamcommunity.world, port: 13007, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶 02丨1x US, server: silver-pvg.steamcommunity.world, port: 13010, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶 03丨1x US, server: silver-pvg.steamcommunity.world, port: 12706, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-迈阿密丨1x US, server: silver-pvg.steamcommunity.world, port: 13109, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-西雅图丨1x US, server: silver-pvg.steamcommunity.world, port: 13111, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-堪萨斯丨1x US, server: silver-pvg.steamcommunity.world, port: 13118, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-芝加哥丨1x US, server: silver-pvg.steamcommunity.world, port: 13253, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-夏洛特丨1x US, server: silver-pvg.steamcommunity.world, port: 13257, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: f6f5e28d5b73.microsoft.com}, udp: true}
+
+proxy-groups:
+  - name: 🍊 手动选择
+    type: select
+    proxies:
+      - DIRECT  
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇯🇵 日本 01丨1x JP
+      - 🇯🇵 日本 02丨1x JP
+      - 🇯🇵 日本 03丨1x JP
+      - 🇨🇳 台湾 01丨1x TW
+      - 🇨🇳 台湾 02丨1x TW
+      - 🇨🇳 台湾 03丨1x TW
+  - name: 🍋 香港
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港家宽 01丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+  - name: 🍍 台湾
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇨🇳 台湾 01丨1x TW
+      - 🇨🇳 台湾 02丨1x TW
+      - 🇨🇳 台湾 03丨1x TW
+  - name: 🍌 新加坡
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 新加坡 01丨1x SG
+      - 🇸🇬 新加坡 02丨1x SG
+      - 🇸🇬 新加坡 03丨1x SG
+  - name: 🥭 日本
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 日本 01丨1x JP
+      - 🇯🇵 日本 02丨1x JP
+      - 🇯🇵 日本 03丨1x JP
+  - name: 🍎 英国
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇬🇧 英国丨1x GB
+  - name: 🍏 美国
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 美国-纽约 01丨1x US
+      - 🇺🇸 美国-纽约 02丨1x US
+      - 🇺🇸 美国-丹佛丨1x US
+      - 🇺🇸 美国-洛杉矶 01丨1x US
+      - 🇺🇸 美国-洛杉矶 02丨1x US
+      - 🇺🇸 美国-洛杉矶 03丨1x US
+      - 🇺🇸 美国-迈阿密丨1x US
+      - 🇺🇸 美国-西雅图丨1x US
+      - 🇺🇸 美国-堪萨斯丨1x US
+      - 🇺🇸 美国-芝加哥丨1x US
+      - 🇺🇸 美国-夏洛特丨1x US
+
+rule-providers:
+  #基础规则集
+  applications:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/arpmoc/clash-for-windows-rule-public/raw/master/Rules/Applications.yaml"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+  direct:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/arpmoc/clash-for-windows-rule-public/raw/master/Rules/Direct.yaml"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+  #软件规则集
+  google:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/arpmoc/clash-for-windows-rule-public/raw/master/Rules/Google.yaml"
+    path: ./ruleset/google.yaml
+    interval: 86400
+  microsoft:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/arpmoc/clash-for-windows-rule-public/raw/master/Rules/Microsoft.yaml"
+    path: ./ruleset/microsoft.yaml
+    interval: 86400
+  telegram:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/arpmoc/clash-for-windows-rule-public/raw/master/Rules/Telegram.yaml"
+    path: ./ruleset/telegram.yaml
+    interval: 86400
+  tiktok:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/arpmoc/clash-for-windows-rule-public/raw/master/Rules/TikTok.yaml"
+    path: ./ruleset/tiktok.yaml
+    interval: 86400
+  netflix:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/arpmoc/clash-for-windows-rule-public/raw/master/Rules/Netflix.yaml"
+    path: ./ruleset/netflix.yaml
+    interval: 86400
+  copilot:
+    type: http
+    behavior: classical
+    url: "https://gitee.com/arpmoc/clash-for-windows-rule-public/raw/master/Rules/Copilot.yaml"
+    path: ./ruleset/copilot.yaml
+    interval: 86400
+
+
+rules:
+  #自定义规则
+  
+  #自动更新规则
+  - RULE-SET,applications,🍍 台湾
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,google,🍋 香港
+  - RULE-SET,telegram,🍏 美国
+  - RULE-SET,tiktok,🥭 日本
+  - RULE-SET,netflix,🍋 香港
+  - RULE-SET,copilot,🍋 香港
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🍊 手动选择
